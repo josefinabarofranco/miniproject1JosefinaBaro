@@ -30,7 +30,9 @@ for ticker in mytickers:
         closingList.append(price)
     print(closingList)
 
-    plt.plot(closingList)
+    stockarray = np.array(closingList)
+
+    plt.plot(stockarray)
     plt.title(f"{ticker} Stock Closing Prices")
     plt.xlabel("Days")
     plt.ylabel("Closing Price")
