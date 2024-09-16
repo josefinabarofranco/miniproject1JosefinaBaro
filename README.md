@@ -14,7 +14,7 @@ This project will be using the packages NumPy and Matplotlib in order to create 
 ### Dependencies
 
 ```
-pip instiall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Installing
