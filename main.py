@@ -40,4 +40,4 @@ for ticker in mytickers:
     plt.xlabel("Days Ago")
     plt.ylabel("Closing Price")
     plt.axis((9,0, minprice, maxprice))
-    plt.show()
+    plt.savefig(f"charts/{ticker}.png")
