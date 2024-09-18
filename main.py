@@ -8,6 +8,9 @@ from datetime import datetime, timedelta
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
+import os
+
+os.makedirs("charts", exist_ok=True)
 
 today = datetime.now()
 ##(5/5 points) Initial comments with your name, class and project at the top of your .py file.
