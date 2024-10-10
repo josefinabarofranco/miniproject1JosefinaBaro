@@ -15,6 +15,8 @@ This project will be using the packages NumPy and Matplotlib in order to create 
 
 ```
 pip install -r requirements.txt
+pip install yfinance
+pip install matplotlib
 ```
 
 ### Executing program
